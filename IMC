@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="Untitled-1.css">
+
+<div class="font">
+  <h3>Calculo IMC.</h3>
+<li> Abaixo de 18.5 (Risco)</li>
+<li> Performac Ideal 18.5 / 24.9</li>
+<li> Obesidade Grau 1 acima 25 / 29.9</li>
+<li> Obesidade Grau 2 entre 30 / 39.9</li>
+<li> Obesidade Grau 3 acima de 40</li>
+
+<div class="box">
+<form name="imcForm" id="imcForm" action="#">
+  
+<br> <div id='heart'></div><div id='heart2'></div>
+    <input class="inpt" placeholder="Informe a altura (Ex: 1.80)" type="text" id="altura" name="altura" maxlength="5" height="5px" width=10px/>
+    </p>
+
+    <input class="inpt" placeholder="Informe o peso (Ex: 90.0)" type="text" id="peso" name="peso" size="10" maxlength="5" height="5px" width=10px/>
+    </p>
+
+    <p><input class="bt" name="Enviar" type="submit" value="Calcular" onclick="calcula_imc()" />
+    </p>
+
+    <script src="function calcula_imc() {.js"></script>''
+
+</form>
+
+
+</div>

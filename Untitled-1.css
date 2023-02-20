@@ -1,0 +1,108 @@
+*{
+    margin:0;
+     padding:0;
+   } 
+   .box{
+     display:flex;
+     justify-content: center; 
+     
+   }
+   li{
+    font-size:10px; 
+     margin:5px;
+   }
+   .bt{
+       -webkit-border-radius: 20px !important;
+       -moz-border-radius: 20px !important;
+       border-radius: 20px !important;
+       cursor: pointer;
+       transition: 2s ease; 
+       width:100%;
+       
+       }
+   .bt:hover{
+       transition: 1s ease;   
+       font-weight: bold;
+       color:white;  
+       background:blue;
+       -webkit-border-radius: 20px !important;
+       -moz-border-radius: 20px !important;
+       border-radius: 20px !important;
+       } 
+   .inpt{
+     margin:3px;
+     width:100%;
+    
+   }
+   
+   #heart {
+   width:25px;
+   height:10px; 
+   border-radius:25px;
+   animation: mov1 1s infinite;
+    
+   }
+   @keyframes mov1{
+     0%{
+   width:25px;
+   height:10px;
+   background-color:red;
+   }
+      25%{
+   width:15px;
+   height:5px;
+         
+     }
+      50%{
+   width:25px;
+   height:10px;
+   background-color:red;     
+     }
+      75%{
+   width:15px;
+   height:5px;
+          
+     }
+      100%{
+   width:25px;
+   height:10px;
+   
+     }
+   }
+   
+   #heart2 {
+   
+   width:25px;
+   height:10px; 
+   border-radius:25px;
+   animation: mov2 1s infinite;
+    
+     
+   }
+   @keyframes mov2{
+     0%{
+   width:15px;
+   height:5px;
+      
+     }
+      25%{
+   width:25px;
+   height:10px;
+   background-color:red;
+     }
+      50%{
+   width:15px;
+   height:5px;
+   
+     }
+      75%{
+   width:25px;
+   height:10px;
+   background-color:red;
+     }
+      100%{
+          width:15px;
+          height:5px;
+           
+     }
+   }
